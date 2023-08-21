@@ -1,0 +1,1829 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.todo {
+    padding: 30px 55px;
+}
+
+
+header {
+    width: 100%;
+    display: table;
+    background-color: #000000;
+    margin-bottom: 20px;
+
+}
+
+header img {
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.logo {
+    float: left;
+
+}
+
+nav {
+    width: auto;
+    float: right;
+}
+
+nav ul {
+    display: table;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:last-child {
+    padding-right: 0px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 25px 20px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+    border-radius: 40px;
+
+}
+
+nav ul li a:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    transition: all 0.5s ease 0s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    transition: all 0.5s ease 0s;
+}
+
+nav ul li a {
+    padding-right: 10px;
+    color: #ffffff;
+    transition: all 0.5s ease 0s;
+}
+
+
+.seccion1 {
+    width: 100%;
+    position: relative;
+    background: url("imag/programa.jpg") center no-repeat;
+    background-size: cover;
+    padding: 200px 0 120px 0;
+}
+
+.seccion1 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+}
+
+.seccion1 .boton1,
+.boton2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    border-radius: 70px;
+    padding: 40px;
+    margin: 0 100px 0 150px;
+    color: #fff;
+
+}
+
+.seccion1 .boton1 {
+    background: #000000;
+    border: 2px solid #ffffff;
+    color: #fff;
+
+}
+
+.seccion1 .boton1:hover {
+    background: #ff0000;
+    border: 2px solid #ffffff;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+
+
+
+}
+
+.seccion1 .boton2 {
+    background: rgb(0, 0, 0);
+    border: 2px solid #fff;
+    color: #fff;
+
+}
+
+.seccion1 .boton2:hover {
+    background: rgb(255, 0, 0);
+    border-color: #ffffff;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+
+
+}
+
+.chapter1 {
+    background: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.chapter1 h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.chapter1 h1:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+
+}
+
+.pregunta {
+    margin-top: 20px;
+    background: #fff;
+}
+
+.pregunta h2 {
+
+    color: rgb(0, 0, 0);
+    font-size: 85px;
+    font-weight: 10px;
+    width: 900px;
+
+}
+
+.pregunta img {
+
+    float: right;
+    width: 700px;
+    height: 550px;
+    margin-left: 20px;
+}
+
+.keywords {
+    margin-top: 20px;
+}
+
+.keywords .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.keywords .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+
+}
+
+.slider {
+    margin-top: 20px;
+    width: 1280px;
+    height: 720px;
+    background: url(imag/health.jpg) center no-repeat;
+    margin: 50px auto;
+    animation: slide 15s alternate-reverse infinite linear;
+
+}
+
+@keyframes slide {
+    20% {
+        background: url(imag/software.jpg) center no-repeat;
+    }
+
+    40% {
+        background: url(imag/preadolescents.jpg) center no-repeat;
+    }
+
+    60% {
+        background: url(imag/sedentary.jpg) center no-repeat;
+    }
+
+    80% {
+        background: url(imag/technology.jpg) center no-repeat;
+    }
+
+    100% {
+        background: url(imag/pandemic.jpg) center no-repeat;
+    }
+
+}
+
+.slider1 {
+    margin-top: 20px;
+    width: 1280px;
+    height: 100px;
+    background: url(imag/text1.jpg) center no-repeat;
+    margin: 50px auto;
+    animation: text 15s alternate-reverse infinite linear;
+
+}
+
+@keyframes text {
+    20% {
+        background: url(imag/text2.jpg) center no-repeat;
+    }
+
+    40% {
+        background: url(imag/text3.jpg) center no-repeat;
+    }
+
+    60% {
+        background: url(imag/text4.jpg) center no-repeat;
+    }
+
+    80% {
+        background: url(imag/text5.jpg) center no-repeat;
+    }
+
+    100% {
+        background: url(imag/text6.jpg) center no-repeat;
+    }
+
+}
+
+.objetivos .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.objetivos .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+
+}
+
+.general {
+    margin-top: 20px;
+    background: rgb(0, 0, 0);
+}
+
+
+.general img {
+    width: 31%;
+}
+
+.general h4 {
+    float: right;
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 10px;
+    width: 1000px;
+    margin: 50px 30px 150px 0;
+
+
+
+}
+
+.general h4:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease 0s;
+}
+
+.general p {
+    float: right;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 10px;
+    margin-right: 30px;
+    width: calc(70% - 90px);
+}
+
+.general p:hover {
+    background: #fff9f9;
+    color: #000000;
+    transition: all 0.5s ease 0s;
+}
+
+.especificos {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background: #fff;
+}
+
+
+.especificos .h4 {
+    float: center;
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight: 10px;
+    margin: 50px 0 20px 0;
+}
+
+.especificos .h4:hover {
+    background: #000000;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+.especificos img {
+    margin: 30px;
+
+}
+
+.especificos img:hover {
+    background: #000000;
+    transition: all 0.5s ease 0s;
+}
+
+.especificos p {
+    float: right;
+    text-align: center;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 68px;
+    font-weight: 10px;
+    margin-top: 60px;
+    margin-right: 30px;
+    width: calc(70% - 90px)
+}
+
+.especificos p:hover {
+    background: #000000;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+.hipotesis {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    float: left;
+    width: calc(100% - 50%);
+}
+
+.hipotesis .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.hipotesis .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+
+}
+
+.hipotesis .nula h4 {
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.hipotesis .nula p {
+    font-size: 60px;
+    margin: 30px 0px;
+}
+
+.hipotesis .alterna h4 {
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.hipotesis .alterna p {
+    font-size: 60px;
+    margin: 30px 0px;
+}
+
+.hipotesis .nula img {
+    width: 50%;
+    margin: 30px 0 20px 200px;
+}
+
+.hipotesis .alterna img {
+    width: 50%;
+    margin: 30px 0 20px 200px;
+}
+
+.variables {
+
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    float: right;
+    width: calc(100% - 51%);
+
+}
+
+.variables .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.variables .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+
+}
+
+.variables .dependiente h4 {
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.variables .dependiente p {
+    font-size: 60px;
+    margin: 30px 0px;
+}
+
+.variables .independiente h4 {
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.variables .independiente p {
+    font-size: 60px;
+    margin: 30px 0px;
+}
+
+.variables .dependiente img {
+    width: 50%;
+    margin: 30px 0 20px 200px;
+}
+
+.variables .independiente img {
+    width: 50%;
+    margin: 30px 0 20px 200px;
+}
+
+.antecedentes {
+    margin-top: 2200px;
+
+}
+
+.antecedentes .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.antecedentes .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+
+}
+
+.antecedentes .text {
+    float: left;
+    width: calc(100% - 50%);
+
+}
+
+.antecedentes .text h4 {
+    font-size: 70px;
+    margin: 50px 0;
+    padding: 20px;
+
+}
+
+.antecedentes .text p {
+    font-size: 50px;
+    margin: 0 20px;
+    padding: 20px;
+
+
+}
+
+.antecedentes .text .body {
+    margin: 20px;
+}
+
+.antecedentes .text .recovery {
+    margin: 50px 0;
+}
+
+.antecedentes .text .optimism {
+    margin: 60px 0 30px 0;
+}
+
+.antecedentes .text .body h4:hover {
+    background: #f7388c;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+
+
+
+}
+
+.antecedentes .text .body p:hover {
+    background: #f7388c;
+    color: #fff;
+
+    transition: all 0.5s ease 0s;
+
+
+}
+
+.antecedentes .text .recovery h4:hover {
+    background: #318ef7;
+    color: #fff;
+
+    transition: all 0.5s ease 0s;
+
+
+}
+
+.antecedentes .text .recovery p:hover {
+    background: #318ef7;
+    color: #fff;
+
+    transition: all 0.5s ease 0s;
+
+
+}
+
+.antecedentes .text .optimism h4:hover {
+    background: #c6db73;
+
+    color: rgb(0, 0, 0);
+
+    transition: all 0.5s ease 0s;
+
+
+}
+
+.antecedentes .text .optimism p:hover {
+    background: #c6db73;
+    color: rgb(0, 0, 0);
+
+    transition: all 0.5s ease 0s;
+
+
+}
+
+.antecedentes .img {
+    float: right;
+    width: calc(100% - 50%);
+}
+
+.antecedentes .img .body {
+
+    margin: 6% 0 6% 40%;
+
+}
+
+.antecedentes .img .recovery {
+    margin-left: 40%;
+    margin-bottom: 6%;
+
+}
+
+.antecedentes .img .optimism {
+    margin-left: 40%;
+    margin-bottom: 6%;
+
+}
+
+.justificacion {
+    margin: 2200px 0 1000px 0;
+
+}
+
+
+.justificacion .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.justificacion .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+
+}
+
+.justificacion .text {
+    float: right;
+    margin-top: 50px;
+    width: calc(100% - 45%);
+}
+
+.justificacion .text .uno1 {
+    margin-top: 20px;
+}
+
+
+.justificacion .text p {
+    float: right;
+    margin-top: 50px;
+    font-size: 41px;
+    width: calc(100% - 60%)
+}
+
+.justificacion .text .uno,
+.dos,
+.tres {
+    margin-left: 120px;
+}
+
+.justificacion .text .uno {
+    margin-top: 20px;
+}
+
+.justificacion .img {
+    float: left;
+    width: calc(100% - 60%);
+    margin: 100px 20px 50px 20px;
+}
+
+.planteamiento .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.planteamiento .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+
+}
+
+.planteamiento .text {
+    float: left;
+    margin-top: 50px;
+    width: calc(100% - 43%);
+}
+
+.planteamiento .text .uno1 {
+    margin-top: 20px;
+}
+
+
+.planteamiento .text p {
+    float: right;
+    margin-top: 50px;
+    font-size: 43px;
+    width: calc(100% - 60%)
+}
+
+.planteamiento .text .uno,
+.dos,
+.tres {
+    margin-left: 120px;
+}
+
+.planteamiento .text .uno {
+    margin-top: 20px;
+}
+
+.planteamiento .img {
+    float: right;
+    width: calc(100% - 60%);
+    height: 750px;
+    margin: 100px 20px 50px 20px;
+}
+
+.abstract {
+    margin: 920px 0;
+}
+
+.abstract .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.abstract .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+
+}
+
+.abstract .text {
+    float: right;
+    margin-top: 50px;
+    width: calc(100% - 43%);
+}
+
+.abstract .text .uno1 {
+    margin-top: 20px;
+}
+
+
+.abstract .text p {
+    float: right;
+    margin-top: 50px;
+    font-size: 45px;
+    width: calc(100% - 60%)
+}
+
+.abstract .text .uno,
+.dos,
+.tres {
+    margin-left: 120px;
+}
+
+.abstract .text .uno {
+    margin-top: 20px;
+}
+
+.abstract .img {
+    float: left;
+    width: calc(100% - 60%);
+    height: 750px;
+    margin: 100px 20px 50px 20px;
+}
+
+.team1 {
+    margin-bottom: 30px;
+}
+
+.team1 .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.team1 .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+
+}
+
+
+
+.team {
+    position: relative;
+    width: 1000px;
+    margin: 15px auto 0;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 440px;
+    grid-gap: 40px;
+}
+
+
+.team .card {
+    position: relative;
+    background: #000;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s ease 0s;
+}
+
+.team .card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+}
+
+.team .card .img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+.team .card:hover .img-box {
+    opacity: 0.5;
+}
+
+.team .card .img-box img {
+    width: 100%;
+}
+
+.team .card .content {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom: -100%;
+    padding: 20px;
+    padding-top: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+
+.team .card:hover .content {
+    bottom: 0;
+}
+
+.team .card:nth-child(1) .content {
+    background: linear-gradient(0deg, #ff002b, transparent);
+
+}
+
+.team .card:nth-child(2) .content {
+    background: linear-gradient(0deg, #ff0000, transparent);
+
+}
+
+.team .card:nth-child(3) .content {
+    background: linear-gradient(0deg, #ff0000, transparent);
+
+}
+
+.team .card .content h2 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.team .card .content h2 span {
+    color: rgb(255, 217, 0);
+    font-size: 20px;
+
+}
+
+.team .card .content p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+footer {
+    width: 100%;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1 {
+    max-width: 570px;
+    padding: 40px
+}
+
+.colum1 img {
+    width: 60%;
+}
+
+.colum1 p {
+    font-size: 40px;
+}
+
+.colum2 {
+    max-width: 350px;
+    padding: 40px
+}
+
+.colum2 h2 {
+    font-size: 70px;
+}
+
+.colum2 ul li {
+    list-style: circle;
+}
+
+.colum2 ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+
+.colum3 {
+    max-width: 570px;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.row {
+    line-height: 80px;
+}
+
+.copy {
+    background: #fff;
+    color: #000;
+    padding: 40px;
+}
+
+.copy:hover {
+    background: #ff0000;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+
+
+
+/* CHAPTER 2 */
+.chapter2 {
+    margin-bottom: 30px;
+}
+
+.chapter2 h1 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.chapter2 h1:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.marco {
+    margin-bottom: 30px;
+}
+
+.img {
+    width: 1120px;
+    height: 840px;
+    display: block;
+    margin: 40px auto 0;
+}
+
+.marco .h3 {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.definicion {
+    display: flex;
+    width: 100%;
+    max-width: 1700px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.salud {
+    max-width: 800px;
+}
+
+.salud h4 {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.salud h4:hover {
+    background: #ff0000;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+.salud .p {
+    display: flex;
+    max-width: 800px
+}
+
+.salud .p p {
+    max-width: 400px;
+    justify-content: left;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.salud .p img {
+    max-width: 400px;
+    justify-content: right;
+}
+
+.tecno {
+    max-width: 800px
+}
+
+.tecno h4 {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tecno h4:hover {
+    background: #ff0000;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+.tecno .p1 {
+    display: flex;
+    max-width: 800px
+}
+
+.tecno .p1 p {
+    max-width: 400px;
+    justify-content: left;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.tecno .p1 img {
+    max-width: 400px;
+    justify-content: right;
+}
+
+/* Chapter 3 */
+.chapter3 h1 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.chapter3 h1:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.crono {
+    margin-bottom: 30px;
+}
+
+.crono .img {
+    width: 1157px;
+    height: 621px;
+    display: block;
+    margin: 40px auto 0;
+}
+
+.crono .h3 {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.diseno h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.diseno h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.diseno .img {
+    margin: 50px auto;
+    width: 1160px;
+    height: 350px;
+}
+
+.diseno .texto {
+    line-height: 60px;
+    font-size: 40px;
+    margin: 40px 0;
+    display: flex;
+    max-width: 1793px;
+}
+
+.diseno .texto p {
+    width: 356px;
+    padding: 10px;
+}
+
+.diseno .texto p:hover {
+    background: #000000;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+.inv h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.inv h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.inv .texto {
+    line-height: 60px;
+    font-size: 40px;
+    margin: 40px 0;
+    display: flex;
+    max-width: 1793px;
+}
+
+.inv .texto h4 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inv .texto h4:hover {
+    color: #fff;
+    background-color: #000000;
+    transition: all 0.5s ease 0s;
+}
+
+.inv .texto .pre,
+.test,
+.post {
+    width: 597px;
+
+}
+
+.inv .texto .pre,
+.test,
+.post p {
+    padding: 10px;
+}
+
+.inv .texto img {
+    margin: 60px 40px 10px 40px;
+    width: 400px;
+    height: 268px;
+}
+
+.inv .h5 {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 70px;
+
+
+}
+
+.metodo h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.metodo h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.metodo .contenedor {
+    display: flex;
+}
+
+.metodo .contenedor .texto {
+    width: 800px;
+    margin: 40px;
+}
+
+.metodo .contenedor .texto p {
+    font-size: 35px;
+    line-height: 39px;
+    margin-bottom: 30px;
+}
+
+.metodo .contenedor img {
+    width: 700px;
+    height: 700px;
+    background: #000;
+    margin: 80px auto;
+}
+
+/* Chapter 4*/
+.chapter4 h1 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.chapter4 h1:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.video {
+    background: #000;
+    margin: 20px 60px;
+}
+
+.video video {
+    width: 25%;
+    margin: 30px calc(100% - 63%);
+}
+
+.video .h5 {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 70px;
+
+
+}
+
+.ana h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.ana h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.ana .texto {
+    line-height: 60px;
+    font-size: 40px;
+    margin: 40px 0;
+    display: flex;
+    max-width: 1793px;
+}
+
+.ana .texto h4 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ana .texto h4:hover {
+    color: #fff;
+    background-color: #000000;
+    transition: all 0.5s ease 0s;
+}
+
+
+.ana .texto .func,
+.ergo,
+.tec {
+    width: 597px;
+
+}
+
+.ana .texto .func p,
+.ergo p,
+.tec p {
+    padding: 10px;
+}
+
+.ana .texto img {
+    margin: 60px 40px 10px 40px;
+    width: 400px;
+    height: 400px;
+}
+
+.imgsde {
+    width: 1793px;
+    height: 1500px
+}
+
+.imgsde h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.imgsde h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.imgsde .grid {
+    margin: 300px auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
+    height: 700px;
+}
+
+.imgsde .grid img {
+    width: 300px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.anapre h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.anapre h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.anapre .uno11,
+.dos22,
+.tres33,
+.cuatro44,
+.cinco55,
+.seis66,
+.siete77,
+.ocho88,
+.nueve99 {
+    display: flex;
+    margin: 40px 30px;
+}
+
+.anapre .uno11 p,
+.dos22 p,
+.tres33 p,
+.cuatro44 p,
+.cinco55 p,
+.seis66 p,
+.siete77 p,
+.ocho88 p,
+.nueve99 p {
+    font-size: 50px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.anapre .uno11 img,
+.dos22 img,
+.tres33 img,
+.cuatro44 img,
+.cinco55 img,
+.seis66 img,
+.siete77 img,
+.ocho88 img,
+.nueve99 img {
+    width: 500px;
+    height: 290px;
+    margin: 30px;
+}
+
+
+
+
+.anapost h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.anapost h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.anapost .uno11,
+.dos22,
+.tres33,
+.cuatro44,
+.cinco55,
+.seis66 {
+    display: flex;
+    margin: 40px 30px;
+}
+
+.anapost .uno11 p,
+.dos22 p,
+.tres33 p,
+.cuatro44 p,
+.cinco55 p,
+.seis66 p {
+    font-size: 50px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.anapost .uno11 img,
+.dos22 img,
+.tres33 img,
+.cuatro44 img,
+.cinco55 img,
+.seis66 img {
+    width: 500px;
+    height: 290px;
+    margin: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Chapter 5*/
+.chapter5 h1 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.chapter5 h1:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.conclusion .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.conclusion .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.conclusion .contenedor {
+    display: flex;
+}
+
+.conclusion .contenedor .texto {
+    width: 1000px;
+    margin: 40px;
+}
+
+.conclusion .contenedor .texto p {
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 35px;
+}
+
+.conclusion .contenedor img {
+    width: 400px;
+    height: 600px;
+    background: #000;
+    margin: auto;
+}
+
+.proyeccion .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.proyeccion .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.proyeccion .contenedor {
+    display: flex;
+}
+
+.proyeccion .contenedor .uno4,
+.dos4,
+.tres4 {
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.proyeccion .uno4 h4,
+.tres4 h4 {
+    font-size: 50px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.proyeccion .dos4 h4 {
+    font-size: 50px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.proyeccion .uno4 p,
+.tres4 p {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.proyeccion .dos4 p {
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+.proyeccion .contenedor .uno4 img,
+.dos4 img,
+.tres4 img {
+    width: 500px;
+    height: 400px;
+    margin: auto 40px;
+}
+
+.verificar .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.verificar .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.verificar h4 {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.verificar .obje .gen1,
+.espe11,
+.espe22,
+.espe33 {
+    display: flex;
+    margin: 40px 30px;
+}
+
+.verificar .obje .gen1 p,
+.espe11 p,
+.espe22 p,
+.espe33 p {
+    font-size: 60px;
+    margin-right: 20px;
+}
+
+.verificar .gen1 img,
+.espe11 img,
+.espe22 img,
+.espe33 img {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+.verificar .hipo .nul,
+.alt {
+    display: flex;
+    margin: 40px 30px;
+}
+
+.verificar .hipo .nul p,
+.alt p {
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+.verificar .hipo .nul img,
+.alt img {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+.frecuente .h3 {
+    background: #000000;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.frecuente .h3:hover {
+    color: #fff;
+    background-color: #ff0000;
+    transition: all 0.5s ease 0s;
+}
+
+.container1 {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.container1-faq {
+    box-shadow: 0 0 15px -1px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+
+.container1-faq .item-faq {
+    box-shadow: 0 0 15px -1px rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container1-faq .item-faq .question {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px 20px 20px 80px;
+    transition: .4s;
+}
+
+.container1-faq .item-faq .question h3 {
+    font-size: 40px;
+}
+
+.container1-faq .item-faq .question .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px -1px rgba(0, 0, 0, .2);
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.container1-faq .item-faq .question .more:hover {
+    box-shadow: 0 0 15px -1px rgba(0, 0, 0, .4);
+}
+
+.container1-faq .item-faq .question span {
+    position: absolute;
+    left: 10px;
+    font-size: 60px;
+    top: 10px;
+    opacity: .1;
+}
+
+.container1-faq .item-faq .answer {
+    position: relative;
+    padding: 0 20px 0 80px;
+    overflow: hidden;
+    height: 0;
+    transition: .4s;
+}
+
+.container1-faq .item-faq .answer p {
+    font-size: 40px;
+}
+
+.container1-faq .item-faq .answer span {
+    position: absolute;
+    left: 10px;
+    font-size: 60px;
+    top: -10px;
+    opacity: .2;
+}
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox img {
+    max-width: 100%;
+    max-height: 90%;
+    padding: 4px;
+    background-color: black;
+    border: 2px solid white;
+}
